@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 1500px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logoTab{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+header .logo img{
+    width: 101px;
+}
+
+header .logoTab ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul li.active a{
+    color: #5669FF;
+}
+
+ul li a:hover{
+    color: #5669FF;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.btn button{
+    width: 140px;
+    height: 50px;
+    background: #5669FF;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero .text{
+    margin-top: 200px;
+}
+.hero .text h1{
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.text h1 span{
+    color: #5669FF;
+}
+
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 500px;
+}
+
+.text .inputField{
+    margin-top: 30px;
+    width: 405px;
+    height: 56px;
+    position: relative;
+}
+
+.inputField input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inputField i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #5669FF;
+    color: #fff;
+}
+
+
+
+.hero .imgSec{
+    position: relative;
+}
+
+.hero .imgSec img{
+    position: absolute;
+    top: -200px;
+    right: 0;
+    width: 500px;
+}
+
+.hero .imgSec img:nth-child(1){
+    width: 600px;
+    right: 180px;
+}
+
+.about{
+    margin-top: 400px;
+}
+
+.about .title{
+    text-align: center;
+}
+
+.about .title h1{
+    font-size: 52px;
+    font-weight: 600;
+}
+.title h1 span{
+    color: #5669FF;
+}
+
+.title p{
+    width: 500px;
+    margin: auto;
+}
+
+.about .boxContent{
+    width: 1220px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boxContent .box{
+    width: 390px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.box i{
+    color: #5669FF;
+    font-size: 30px;
+}
+.box h3{
+    margin: 15px;
+}
+
+.loadMore{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 130px;
+}
+
+.imgsection{
+    position: relative;
+}
+
+.imgsection .circle{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 5px solid #c4c4c4;
+    background: #5669FF;
+}
+
+.imgsection img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.textSec{
+    width: 600px;
+}
+
+.downloadBtn button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    border-left: 3px solid #5669FF;
+}
+
+button a{
+    color: #5669FF;
+    text-decoration: none;
+}
+
+button a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+h1{
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+h1 span{
+    color: #5669FF;
+}
+
+.btnSec{
+    margin-top: 30px;
+}
+
+
+
+
+.information{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.infoBox{
+    margin-top: 40px;
+}
+
+.iconBox{
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.iconBox .icon i{
+    font-size: 35px;
+    color: #5669FF;
+}
+
+.infoText p{
+    width: 600px;
+    margin-top: 15px;
+}
+
+.demoBtn{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.infoImgSec{
+    position: relative;
+}
+
+.infoImgSec img:nth-child(1){
+    margin-top: 170px;
+}
+.infoImgSec img:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+
+
+.contact{
+    width: 1100px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 60px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact h2{
+    text-align: center;
+    color: #5669FF;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.contact h2::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 120px;
+    height: 2px;
+    background: #5669FF;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-top: 100px;
+}
+
+.formLocation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+
+form .inputBox{
+    margin-bottom: 25px;
+}
+
+.inputBox input,
+.inputBox textarea{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #999;
+    font-size: 18px;
+}
+
+.inputBox textarea{
+    max-width: 100%;
+    height: 250px;
+}
+
+.sendBtn{
+    margin-top: 30px;
+}
+.sendBtn button{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #5669FF;
+    color: #fff;
+    font-weight: 600;
+}
+
+.locationBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.socialIcon{
+    margin-bottom: 25px;
+}
+
+.socialIcon i{
+    margin-right: 20px;
+    font-size: 18px;
+}
